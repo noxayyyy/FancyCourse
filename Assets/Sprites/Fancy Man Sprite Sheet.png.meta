@@ -1,0 +1,3346 @@
+fileFormatVersion: 2
+guid: e3609dddb0920c74aab6a24f6345c6b6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FancyManRunning_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1927
+        width: 66
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73500fdbac4f1e46b1c4c54084ccd2e
+      internalID: 2095239562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManRunning_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1928
+        width: 63
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1089895f713204a4da5999f509b56090
+      internalID: 2040647267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManRunning_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1933
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62319ea210f51db4cafd82c6912300af
+      internalID: 1055141978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManRunning_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1928
+        width: 72
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b4cd152b7aa7d4081ae1c801422a3f
+      internalID: -207538033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManRunning_4
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1928
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cec060542b91145b0d973b68cb9cf7
+      internalID: -556619977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManRunning_5
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1927
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5267affbe63f8724bb95400086232713
+      internalID: 1099405552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManRunning_6
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1926
+        width: 73
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef52d6bcd68a174a84e08c3a5fb8353
+      internalID: -1728007404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManRunning_7
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1924
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef9e02d87f52ff45ad918f4fa6ca8c0
+      internalID: 336967517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManRunning_8
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1932
+        width: 71
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f4aae823cd2c0459131787db3ac718
+      internalID: 1979548098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1923
+        width: 106
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd2ebdffda9913498c9baf88cdab5da
+      internalID: 952967536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1940
+        width: 95
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbac0171594f27d40bd967dcf27eebac
+      internalID: -888775586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1940
+        width: 96
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3bd9eecb8679c4c8a4da47ad1b5184
+      internalID: -1137289602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1944
+        width: 95
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ef7bf300735494aa5d4172e9be4e93
+      internalID: -1954824607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1938
+        width: 107
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b561f02664fac7e41ba7693ff8b5818b
+      internalID: 728912043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 1945
+        width: 94
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9535fd1ea3fecfc4d9cc1e26c602043f
+      internalID: 1263576634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1939
+        width: 94
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d57027215d5e5947aff427e9bb09ed7
+      internalID: 1692867419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1797
+        width: 58
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4fd77db77959d408f390e3cc804657
+      internalID: 1389250806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1795
+        width: 76
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca2638ffc16af14a96fe67d45f4fb71
+      internalID: -437599012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1797
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96c0662ee91c4a4795c7f25ce143ec2
+      internalID: -589425906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1798
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87712c488cac1846a53d4d80f3a3cb2
+      internalID: -768147035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1797
+        width: 59
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807dacd9c38c1df498759c2ca3239c46
+      internalID: 1293125075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1795
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3548ad3bbb6a0314fb4ae9dd81f1b642
+      internalID: 1027944799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1779
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cea5696dcde14f41bcdbdc369920e16
+      internalID: -1500627630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1795
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3639e152de7883549a18554900bb6967
+      internalID: -376894513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1795
+        width: 67
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3f07cf02cd43f4aaecc8644042df46
+      internalID: -377533882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1795
+        width: 71
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a1a4667b52e444088412c1ed600b50
+      internalID: -1034236960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1795
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea1d6c954ba7e948844786357d67a2d
+      internalID: 2031083096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1796
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a6683fdc7342d4995fb5f56910667a
+      internalID: -847900393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1672
+        width: 47
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0328ee978a7aa49b59f42ccc74cde8
+      internalID: 1931472376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1690
+        width: 67
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9062f1acc12844bb6bcb924e977904
+      internalID: 377126659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1672
+        width: 73
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e5e624256c8fd43b8b7622f2c218f7
+      internalID: -1595414759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1697
+        width: 94
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560dd9446585eb1489f61eb3521bd57f
+      internalID: -113979694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1672
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbbc3f68fa86634fa1c7d991621c812
+      internalID: -1084942213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1663
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b34a74cb204134bbd61d7408102794
+      internalID: 1869450574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1663
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2649cad6bc3aca4f9c696ffba894e51
+      internalID: 1772236760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1674
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6898c2ec0d6172489690c51df6f3cbb
+      internalID: -808000437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1672
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1974c0f8907634aa38cb8621644b70
+      internalID: 147612150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1668
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd653dec6c02b948af00dc64e56b2c8
+      internalID: 2146985893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1664
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d26e6ad5274ac48a5ea61598ad5443
+      internalID: 1805547272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1670
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658f348487fe25543b8419003e70b6ee
+      internalID: -88085542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1542
+        width: 61
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca11f49d5884f14aaa8e61c5369e76b
+      internalID: 1079132493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1539
+        width: 60
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4015f4daa32d08f4e87f5ba5f58a2487
+      internalID: -208625785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1540
+        width: 77
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f20ade16b73f8841a2f4a0b39d1e6bb
+      internalID: 165962904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1540
+        width: 76
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbafa27318437a489b777f6c2149f41
+      internalID: -48426621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1541
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb5cbfb3678ae84d8c75e9ce2edbc8a
+      internalID: -603235885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1541
+        width: 80
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed58459ac23441408cfc5e1ae3d7145
+      internalID: 1462774894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1540
+        width: 87
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52059c4e955236c49b3f76a0c9e7f2f8
+      internalID: -2074165775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1542
+        width: 67
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21059b4558ca78b4d9b95407fc7b7132
+      internalID: 140748137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1535
+        width: 48
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0428f69408ba22548addb73cfd391a32
+      internalID: -1035558761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1533
+        width: 46
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c91e93740cfb4340af5d14b64f1f29a
+      internalID: -1831166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1535
+        width: 47
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7c80b0256fca048aefbc766483678d
+      internalID: 1038605795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1533
+        width: 49
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5be78a975cc8c40a46619945b3e2e6
+      internalID: 1729381187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1413
+        width: 65
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b615b6d507eba7d49831fcbed33a4776
+      internalID: -85334417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1412
+        width: 68
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e046f93e47bb04780cdede6ea3522f
+      internalID: 304586881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1413
+        width: 77
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eae81ec1bdf49641ad6075ef1d9dd22
+      internalID: -1613542007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1412
+        width: 54
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd783595346c32144b2322725c94b7b9
+      internalID: -323462005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1411
+        width: 56
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a10c30003254d242b0c384e8df2927a
+      internalID: 1368739510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1412
+        width: 51
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7943bcf76c695ce42925206c522dae59
+      internalID: 949471482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1410
+        width: 60
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588856a29ab65704b8f2be032fbdc152
+      internalID: 869363989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1410
+        width: 68
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670870b34ca936c458e1574ec9e87251
+      internalID: -1627567849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1410
+        width: 83
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea29a58cfff88284eabc61d2ea8e0218
+      internalID: 1051602897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1410
+        width: 89
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4418214aedbc58e479fa3a23ae278bc5
+      internalID: 1613785051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1410
+        width: 51
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddd923b5087f744cb57f118f85b9c81
+      internalID: -50727365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1286
+        width: 53
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3971d43f2e0c5a478f06a95bd8020db
+      internalID: -1398476226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1285
+        width: 47
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264bec8d7b0cba14cbbe99d617435b72
+      internalID: -582404320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1288
+        width: 48
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c7a6d9979c81d45999429c6b64f33d
+      internalID: -479057558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1286
+        width: 47
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9170f7b159fffa142ae78d28b05c32fd
+      internalID: -1782823679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1285
+        width: 48
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2311de9236a8f74eaee88863918d65f
+      internalID: 134533380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1287
+        width: 45
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf07c08674e5504aa8f04347f7de614
+      internalID: 547301003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1287
+        width: 45
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a82bebb20cb194daa58350ab9496e3
+      internalID: 1291684294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1285
+        width: 48
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54a0197974d8e54b8828a1528d8ea9c
+      internalID: 2107938070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1280
+        width: 47
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d65222c7e63adc489e17320346eb74d
+      internalID: -2071224550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1288
+        width: 48
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94771e407d396844d916280bd6c6121c
+      internalID: -1032082858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1285
+        width: 47
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15be1b4b341e0c54b983013b8d89aab0
+      internalID: -1741118623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1286
+        width: 53
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dec459364b9a924282f3e3692af394b
+      internalID: 836734472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1156
+        width: 62
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6665b2e6c45c1044ab5383cb224d32a5
+      internalID: -996750238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1156
+        width: 60
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414653120a98cbf4f826cddf3b09ac36
+      internalID: 2022485292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1155
+        width: 68
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45984953fe09b14b9ea3cd427db9c75
+      internalID: 1664430809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1158
+        width: 78
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76470d31762fa8641beaf309c12b8f5b
+      internalID: -1495642779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1156
+        width: 71
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52caf3f9f62a204d8c6a70aace39ec7
+      internalID: 372180009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1154
+        width: 64
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6057133e333385a4abb4805f9f31076f
+      internalID: -113991298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1153
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e926ddf633867ce47a1da3ed1b6df3b3
+      internalID: 11395631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1153
+        width: 80
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7511f761a705f341a336952afecc0e3
+      internalID: 234076191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1153
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad45323e5bc179438c853955f8d0fcb
+      internalID: 582277041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1152
+        width: 82
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3db091451183c246a9cf3512f486db7
+      internalID: -2134138240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1152
+        width: 83
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc50fd9193a49e408594aed4c79cacc
+      internalID: 2104164474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1153
+        width: 80
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10862b528ad0764b9eadaf1a73cb508
+      internalID: -1263658541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1059
+        width: 61
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87cbcd75b971024cb3cc450c0545c41
+      internalID: -1070023289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1060
+        width: 58
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24702e8c70e250d408c37f91667ec105
+      internalID: 1197540995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1066
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dc701888ba9b54d9173267b7740e55
+      internalID: -157285605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1060
+        width: 61
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68169c2918661bb4a8b956675057a78f
+      internalID: 235949552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1063
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e448be0be84b384881217fc2a697792
+      internalID: -1408739174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1058
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12d7dbc2ab845042ba1c812ca3156c7
+      internalID: 343597487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1059
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca909785ce1e027478f7efddc6293fbc
+      internalID: 726225223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1056
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ac5e01bcd9a544f997ece4d857d70b
+      internalID: -638029171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1058
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28456b4fdbaca4f4b82bac29189a970b
+      internalID: -1712669519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1059
+        width: 62
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8860bcd34b297840a011b2837193875
+      internalID: -1006733271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1034
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85afc07e4452a941841d83e58770bbe
+      internalID: 1114661290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1036
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676304ef5d37b6843850df5d7854beb4
+      internalID: -5817925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1035
+        width: 70
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3065d542497bbe1478efd90435a7e5b9
+      internalID: -1522606333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1036
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245b20a64ef5db34680f37c5d8e0dc12
+      internalID: -1770235603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1035
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c08bb04e9aefb4b9744e232c2730ad
+      internalID: 776381108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 902
+        width: 61
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cae7340ce8bf24c9336ec645f2eaa6
+      internalID: -806106787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 902
+        width: 52
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81613681ddffb1643936e0c6e2acb858
+      internalID: -336463324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 902
+        width: 46
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd7e1dc210a5924b8f3fc6fcb7fd79c
+      internalID: -1901084781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 902
+        width: 44
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632763aea07182d458f17b97468f6dfb
+      internalID: -1989525559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 902
+        width: 50
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc783a090e176045afa68d273259893
+      internalID: 1604532901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 902
+        width: 61
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c66af5711ec0d842a49c951937c066f
+      internalID: 669723204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 902
+        width: 69
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacdf31e3905c8e41a367077f795367c
+      internalID: 1616733791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 907
+        width: 69
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cda705bcf1cddf41a4c9d7886a16929
+      internalID: -1064202772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 908
+        width: 59
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f1dbe7480c61148a0c31e3af7a8994
+      internalID: -1248711067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 907
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d66c027bd4911e4194c60b4147ef6f2
+      internalID: -2116041172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 907
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d75921b9b791f541a96a94ffbb09b5f
+      internalID: 483304852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 908
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb0879a0f654ad49be84e71f4902393
+      internalID: 934780968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 907
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff306d7bde3a39946b84315507a51309
+      internalID: 1523824768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 907
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b5f5b6cac7ed649a67f58bdb327f2a
+      internalID: 1804826295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 908
+        width: 59
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e41134f6dc62ee45909e262b4c330e7
+      internalID: 629181028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 772
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bc2a548ee543144b95fe079f7f72a9
+      internalID: 150159270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 770
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3963e65ead5f874786f24f584d1abef
+      internalID: -1930563430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 773
+        width: 63
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cbf232c3b57f2469a02c3d6f1d2b79
+      internalID: -1938648095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 771
+        width: 56
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116c44e9c7f450240a14ad533fe3b3f5
+      internalID: -1433664678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_5
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 770
+        width: 54
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82af589a7e356dd4eb5b581369f1f578
+      internalID: 784160623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_6
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 770
+        width: 56
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0316b705e5271ac4596ba1411515e1a5
+      internalID: 1184482614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_7
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 770
+        width: 54
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f95cfbca816ef4da7b4e77ec186009
+      internalID: -1287180843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_8
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 770
+        width: 56
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfd1b091edcd0a4da84e775895bcd30
+      internalID: 789576104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_9
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 772
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b44a5c3a524cb4c91fc4b3b7482aca
+      internalID: -1996173140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_10
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 767
+        width: 65
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44510eb6314d8ae4e950eda9c073b3e2
+      internalID: -2073403795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_11
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 770
+        width: 63
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1a488ace048754eb7cdaf980f8bb83
+      internalID: 373041248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManJumping_12
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 766
+        width: 56
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce23b92af75b6854fb27289b5fb642a9
+      internalID: 590331213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 520
+        width: 58
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64661adac31915f4fac00a06d615b0a6
+      internalID: -298404980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 537
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b013342938fda547bc4b351d8d70ff3
+      internalID: -1874280492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 554
+        width: 98
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d8b7724402b3e49bbf5a657b5e7223
+      internalID: -748620618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 536
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287601b7b21ce004a9f73796cc656a12
+      internalID: -973884169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 532
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6e6b6a2ab2b5d40b697c9864397135
+      internalID: 1633952044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fancy Man Sprite Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 532
+        width: 99
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582dc5dae0e21634a84852fb8cb62007
+      internalID: 647090749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManStanding_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 134
+        width: 66
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553a0122fcbfb6f49878d0a96e45ab78
+      internalID: 962004901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManStanding_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 135
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcac6c816aa03aa488afbaa3de4e8379
+      internalID: -552745260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManStanding_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 135
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68821fd717fe6a445a1fc3f4506f9e4f
+      internalID: -1302965349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManStanding_3
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 135
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad39890f8b08b564ead291e77cdd484a
+      internalID: 1219965531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManStanding_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 135
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b508a9723383ff41a7ebd64e7ea7cbc
+      internalID: 963677721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManStanding_5
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 135
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce292a98b521dc4e99c51e0e554fbd5
+      internalID: 245827023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManStanding_6
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 135
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f46f597eea4277498f295398a612713
+      internalID: 1600531627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FancyManStanding_7
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 135
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e21706ea7819cf49b3ae910d8fface3
+      internalID: -1244955308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fancy Man Sprite Sheet_152: 1781436426
+      Fancy Man Sprite Sheet_73: -1032082858
+      Fancy Man Sprite Sheet_14: 1263576634
+      FancyManStanding_6: 1600531627
+      FancyManJumping_12: 590331213
+      FancyManStanding_2: -1302965349
+      Fancy Man Sprite Sheet_94: 726225223
+      Fancy Man Sprite Sheet_95: -638029171
+      Fancy Man Sprite Sheet_80: 372180009
+      Fancy Man Sprite Sheet_164: -2127378179
+      Fancy Man Sprite Sheet_158: -973884169
+      Fancy Man Sprite Sheet_171: 892934153
+      Fancy Man Sprite Sheet_168: 46840253
+      Fancy Man Sprite Sheet_64: -1398476226
+      FancyManRunning_4: 1099405552
+      Fancy Man Sprite Sheet_154: 225895124
+      Fancy Man Sprite Sheet_150: -556534315
+      Fancy Man Sprite Sheet_142: 2077299454
+      Fancy Man Sprite Sheet_130: 1330532082
+      Fancy Man Sprite Sheet_58: 949471482
+      Fancy Man Sprite Sheet_19: -768147035
+      Fancy Man Sprite Sheet_41: 1079132493
+      Fancy Man Sprite Sheet_88: -1070023289
+      Fancy Man Sprite Sheet_62: 1613785051
+      Fancy Man Sprite Sheet_82: 11395631
+      Fancy Man Sprite Sheet_29: 377126659
+      Fancy Man Sprite Sheet_75: 836734472
+      Fancy Man Sprite Sheet_140: 1513126830
+      Fancy Man Sprite Sheet_193: -1466573274
+      Fancy Man Sprite Sheet_91: 235949552
+      Fancy Man Sprite Sheet_98: 1114661290
+      Fancy Man Sprite Sheet_185: 2142599493
+      Fancy Man Sprite Sheet_47: -2074165775
+      Fancy Man Sprite Sheet_59: 869363989
+      FancyManRunning_8: 150159270
+      Fancy Man Sprite Sheet_179: 1580942900
+      FancyManJumping_10: -2073403795
+      Fancy Man Sprite Sheet_169: -744958088
+      Fancy Man Sprite Sheet_37: 2146985893
+      Fancy Man Sprite Sheet_104: -336463324
+      Fancy Man Sprite Sheet_109: 1616733791
+      Fancy Man Sprite Sheet_36: 147612150
+      Fancy Man Sprite Sheet_194: 602897694
+      Fancy Man Sprite Sheet_184: -1794691364
+      Fancy Man Sprite Sheet_157: -748620618
+      Fancy Man Sprite Sheet_162: -74337767
+      Fancy Man Sprite Sheet_35: -808000437
+      FancyManJumping_5: 784160623
+      Fancy Man Sprite Sheet_24: -377533882
+      FancyManJumping_11: 373041248
+      Fancy Man Sprite Sheet_15: 1692867419
+      FancyManRunning_5: -1728007404
+      Fancy Man Sprite Sheet_81: -113991298
+      Fancy Man Sprite Sheet_78: 1664430809
+      Fancy Man Sprite Sheet_145: -1886244190
+      Fancy Man Sprite Sheet_186: 619496562
+      Fancy Man Sprite Sheet_45: -603235885
+      Fancy Man Sprite Sheet_68: 134533380
+      Fancy Man Sprite Sheet_77: 2022485292
+      Fancy Man Sprite Sheet_43: 165962904
+      Fancy Man Sprite Sheet_113: 483304852
+      Fancy Man Sprite Sheet_63: -50727365
+      Fancy Man Sprite Sheet_57: 1368739510
+      Fancy Man Sprite Sheet_49: -1035558761
+      Fancy Man Sprite Sheet_195: -736368493
+      Fancy Man Sprite Sheet_155: -298404980
+      Fancy Man Sprite Sheet_156: -1874280492
+      Fancy Man Sprite Sheet_175: 78531942
+      FancyManJumping_8: 789576104
+      Fancy Man Sprite Sheet_188: 902838811
+      Fancy Man Sprite Sheet_147: -50451213
+      Fancy Man Sprite Sheet_132: -1819401191
+      Fancy Man Sprite Sheet_189: 785294150
+      Fancy Man Sprite Sheet_178: 860234055
+      FancyManStanding_0: 962004901
+      Fancy Man Sprite Sheet_38: 1805547272
+      Fancy Man Sprite Sheet_181: 870071136
+      Fancy Man Sprite Sheet_13: 728912043
+      Fancy Man Sprite Sheet_42: -208625785
+      Fancy Man Sprite Sheet_30: -1595414759
+      Fancy Man Sprite Sheet_39: -88085542
+      Fancy Man Sprite Sheet_50: -1831166
+      Fancy Man Sprite Sheet_87: -1263658541
+      Fancy Man Sprite Sheet_44: -48426621
+      Fancy Man Sprite Sheet_135: -1701278538
+      Fancy Man Sprite Sheet_183: 78493183
+      FancyManStanding_5: 245827023
+      Fancy Man Sprite Sheet_17: -437599012
+      Fancy Man Sprite Sheet_99: -5817925
+      Fancy Man Sprite Sheet_66: -479057558
+      Fancy Man Sprite Sheet_191: -1374997389
+      Fancy Man Sprite Sheet_26: 2031083096
+      Fancy Man Sprite Sheet_86: 2104164474
+      Fancy Man Sprite Sheet_48: 140748137
+      Fancy Man Sprite Sheet_96: -1712669519
+      Fancy Man Sprite Sheet_148: -741791149
+      Fancy Man Sprite Sheet_65: -582404320
+      Fancy Man Sprite Sheet_34: 1772236760
+      Fancy Man Sprite Sheet_89: 1197540995
+      Fancy Man Sprite Sheet_160: 647090749
+      FancyManJumping_2: -1930563430
+      Fancy Man Sprite Sheet_51: 1038605795
+      Fancy Man Sprite Sheet_161: -352828912
+      FancyManStanding_7: -1244955308
+      Fancy Man Sprite Sheet_177: 1960348051
+      Fancy Man Sprite Sheet_76: -996750238
+      Fancy Man Sprite Sheet_55: -1613542007
+      Fancy Man Sprite Sheet_79: -1495642779
+      Fancy Man Sprite Sheet_90: -157285605
+      FancyManJumping_9: -1996173140
+      Fancy Man Sprite Sheet_176: -219033910
+      Fancy Man Sprite Sheet_116: 1804826295
+      Fancy Man Sprite Sheet_196: 1883297351
+      Fancy Man Sprite Sheet_9: 952967536
+      Fancy Man Sprite Sheet_106: -1989525559
+      Fancy Man Sprite Sheet_69: 547301003
+      Fancy Man Sprite Sheet_192: 1288574197
+      Fancy Man Sprite Sheet_32: -1084942213
+      Fancy Man Sprite Sheet_159: 1633952044
+      Fancy Man Sprite Sheet_163: 799390200
+      Fancy Man Sprite Sheet_107: 1604532901
+      Fancy Man Sprite Sheet_46: 1462774894
+      Fancy Man Sprite Sheet_101: -1770235603
+      Fancy Man Sprite Sheet_54: 304586881
+      Fancy Man Sprite Sheet_11: -1137289602
+      Fancy Man Sprite Sheet_187: 832895826
+      Fancy Man Sprite Sheet_102: 776381108
+      Fancy Man Sprite Sheet_149: 1425407786
+      FancyManJumping_1: -1930563430
+      Fancy Man Sprite Sheet_103: -806106787
+      Fancy Man Sprite Sheet_105: -1901084781
+      Fancy Man Sprite Sheet_31: -113979694
+      Fancy Man Sprite Sheet_151: -423366672
+      Fancy Man Sprite Sheet_56: -323462005
+      Fancy Man Sprite Sheet_131: -136563658
+      Fancy Man Sprite Sheet_141: -1943768756
+      Fancy Man Sprite Sheet_173: -1035569587
+      Fancy Man Sprite Sheet_27: -847900393
+      Fancy Man Sprite Sheet_170: 49774345
+      Fancy Man Sprite Sheet_33: 1869450574
+      Fancy Man Sprite Sheet_180: 1759668064
+      Fancy Man Sprite Sheet_16: 1389250806
+      FancyManStanding_4: 963677721
+      Fancy Man Sprite Sheet_133: 867458629
+      Fancy Man Sprite Sheet_10: -888775586
+      Fancy Man Sprite Sheet_182: -194363407
+      Fancy Man Sprite Sheet_12: -1954824607
+      Fancy Man Sprite Sheet_100: -1522606333
+      FancyManRunning_2: -556619977
+      Fancy Man Sprite Sheet_97: -1006733271
+      FancyManRunning_1: -207538033
+      Fancy Man Sprite Sheet_190: -1104240651
+      Fancy Man Sprite Sheet_28: 1931472376
+      FancyManRunning_6: 336967517
+      Fancy Man Sprite Sheet_93: 343597487
+      FancyManRunning_0: 2095239562
+      Fancy Man Sprite Sheet_20: 1293125075
+      Fancy Man Sprite Sheet_138: 198338311
+      Fancy Man Sprite Sheet_67: -1782823679
+      Fancy Man Sprite Sheet_70: 1291684294
+      Fancy Man Sprite Sheet_84: 1979548098
+      FancyManRunning_3: -556619977
+      Fancy Man Sprite Sheet_117: 1518075584
+      Fancy Man Sprite Sheet_134: -1714150703
+      Fancy Man Sprite Sheet_199: -1930563430
+      FancyManRunning_7: 1979548098
+      Fancy Man Sprite Sheet_139: -1741118623
+      Fancy Man Sprite Sheet_167: 962004901
+      Fancy Man Sprite Sheet_74: 566288615
+      FancyManJumping_3: -1938648095
+      Fancy Man Sprite Sheet_172: -589425906
+      FancyManStanding_3: 1219965531
+      Fancy Man Sprite Sheet_22: -2134138240
+      Fancy Man Sprite Sheet_18: 1523824768
+      Fancy Man Sprite Sheet_85: 934780968
+      Fancy Man Sprite Sheet_136: 1051602897
+      Fancy Man Sprite Sheet_114: -1408739174
+      Fancy Man Sprite Sheet_115: -1804175820
+      Fancy Man Sprite Sheet_92: 1571446043
+      Fancy Man Sprite Sheet_61: 1729381187
+      Fancy Man Sprite Sheet_146: 234076191
+      Fancy Man Sprite Sheet_52: -376894513
+      Fancy Man Sprite Sheet_83: -1124172077
+      Fancy Man Sprite Sheet_23: 2107938070
+      Fancy Man Sprite Sheet_174: 1027944799
+      Fancy Man Sprite Sheet_71: -948453611
+      Fancy Man Sprite Sheet_21: -1627567849
+      Fancy Man Sprite Sheet_198: -1248711067
+      FancyManStanding_1: -552745260
+      Fancy Man Sprite Sheet_60: 245827023
+      Fancy Man Sprite Sheet_111: -405695843
+      Fancy Man Sprite Sheet_197: -905570274
+      FancyManJumping_4: -1433664678
+      Fancy Man Sprite Sheet_166: -2073403795
+      FancyManJumping_7: -1287180843
+      Fancy Man Sprite Sheet_40: -2116041172
+      Fancy Man Sprite Sheet_144: -1302965349
+      Fancy Man Sprite Sheet_112: -1705950451
+      Fancy Man Sprite Sheet_153: -2071224550
+      Fancy Man Sprite Sheet_165: 669723204
+      Fancy Man Sprite Sheet_72: -1938648095
+      Fancy Man Sprite Sheet_108: 1219965531
+      Fancy Man Sprite Sheet_25: -85334417
+      Fancy Man Sprite Sheet_137: -914613009
+      Fancy Man Sprite Sheet_53: -1064202772
+      Fancy Man Sprite Sheet_143: 2095239562
+      FancyManJumping_6: 1184482614
+      Fancy Man Sprite Sheet_110: 2040647267
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
