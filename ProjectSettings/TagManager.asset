@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Moon
+  - Timer
+  - DeathCounter
   layers:
   - Default
   - TransparentFX

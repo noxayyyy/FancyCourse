@@ -5,6 +5,8 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 	Transform Player;
+	[SerializeField]
+	int Difference;
 	Vector3 TempPos;
 	[SerializeField]
 	float MinX, MaxX;
@@ -19,7 +21,7 @@ public class CameraFollow : MonoBehaviour
 	void LateUpdate()
 	{
 		TempPos = transform.position;
-		TempPos.x = Player.position.x;
+		TempPos.x = Player.position.x - Difference;
 		if(TempPos.x > MaxX)
 		{
 			TempPos.x = MaxX;
