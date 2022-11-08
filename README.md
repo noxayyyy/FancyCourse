@@ -1,1 +1,3 @@
-# FancyObstacleCourse
+# FancyCourse
+
+neat.
