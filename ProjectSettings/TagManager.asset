@@ -8,6 +8,7 @@ TagManager:
   - Moon
   - Timer
   - DeathCounter
+  - PauseMenu
   layers:
   - Default
   - TransparentFX
@@ -50,4 +51,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 210628843
+    locked: 0
+  - name: Pause
+    uniqueID: 1660284893
     locked: 0

@@ -11,7 +11,7 @@ public class FinishLine : MonoBehaviour
 		{
 			Destroy(collision.gameObject);
             TimerScript.timerEnd();
-			SceneNavigator.Leaderboard();
+			SceneNavigator.AfterRunBoard();
 		}
 	}
 

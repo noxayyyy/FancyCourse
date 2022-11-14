@@ -9,7 +9,7 @@ public class Destroyer : MonoBehaviour
 	static public int deaths;
 
 	// Start is called before the first frame update
-	private void Start()
+	private void Update()
 	{
 		deathText.text = "Deaths: " + deaths.ToString();
 	}
@@ -18,15 +18,8 @@ public class Destroyer : MonoBehaviour
 	{
 		if (collision.CompareTag("Player"))
 		{
-			Destroy(collision.gameObject);
 			deaths++;
 			SceneNavigator.ReloadScene();
 		}
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-		
 	}
 }

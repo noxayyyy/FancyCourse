@@ -5,14 +5,15 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TimerScript : MonoBehaviour
+public class TimerScript : MonoBehaviour, IDataPersistence
 {
-	static float currentTime = 0;
+	static float currentTime;
 	static public float[] scores = new float[6];
 	static public int attempts = 0;
-	static bool timerStart = false;
+	static public bool timerStart = false;
 	static bool timerStop = false;
 	public Text currentTimeText;
+	int i;
 
 	// Start is called before the first frame update
 	void Start()
@@ -20,19 +21,6 @@ public class TimerScript : MonoBehaviour
 		currentTimeText.text = currentTime.ToString();
 	}
 	
-	public static void timerBegin()
-	{
-		timerStart = true;
-		timerStop = false;
-	}
-
-	public static void timerEnd()
-	{
-		timerStart = false;
-		timerStop = true;
-		attempts++;
-	}
-
 	// Update is called once per frame
 	void Update()
 	{
@@ -58,9 +46,23 @@ public class TimerScript : MonoBehaviour
 			{
 				Sort(5);
 			}
-			currentTime = 0;
 		}
 	}
+	 
+	public static void timerBegin()
+	{
+		currentTime = 0;
+		timerStart = true;
+		timerStop = false;
+	}
+
+	public static void timerEnd()
+	{
+		timerStart = false;
+		timerStop = true;
+		attempts++;
+	}
+
 	public static void Sort(int n)
 	{
 		int i;
@@ -80,5 +82,21 @@ public class TimerScript : MonoBehaviour
 				}
 			}
 		}while(!noSwap);
+	}
+
+	public void LoadData(GameData data)
+	{
+		for (i = 0; i < 5; i++)
+		{
+			scores[i] = data.leaderBoard[i];
+		}
+	}
+
+	public void SaveData(GameData data)
+	{
+		for (i = 0; i < 5; i++)
+		{
+			data.leaderBoard[i] = scores[i];
+		}
 	}
 }
