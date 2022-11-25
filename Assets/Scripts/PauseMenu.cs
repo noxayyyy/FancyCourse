@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
 	[SerializeField]
 	GameObject pauseMenu, continueButton, retryButton, exitButton;
-	bool paused;
+	public static bool paused;
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -47,6 +45,7 @@ public class PauseMenu : MonoBehaviour
 	public void retryGame()
 	{
 		SceneNavigator.ReloadScene();
+		Destroyer.deaths = 0;
 		Time.timeScale = 1f;
 	}
 

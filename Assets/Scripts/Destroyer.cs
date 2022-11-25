@@ -19,6 +19,7 @@ public class Destroyer : MonoBehaviour
 		if (collision.CompareTag("Player"))
 		{
 			deaths++;
+			Debug.Log(deaths);
 			SceneNavigator.ReloadScene();
 		}
 	}

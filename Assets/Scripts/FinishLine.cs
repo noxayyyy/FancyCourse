@@ -5,25 +5,33 @@ using UnityEngine;
 
 public class FinishLine : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		if (collision.CompareTag("Player"))
 		{
-			Destroy(collision.gameObject);
-            TimerScript.timerEnd();
-			SceneNavigator.AfterRunBoard();
+			TimerScript.timerEnd();
+			StartCoroutine(UponCollision());
 		}
 	}
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		
+	}
+
+	IEnumerator UponCollision()
+	{
+		PauseMenu.paused = true;
+		yield return new WaitForSeconds(5);
+		DataPersistenceManager.instance.SaveGame();
+		PauseMenu.paused = false;
+		SceneNavigator.AfterRunBoard();
+	}
 }

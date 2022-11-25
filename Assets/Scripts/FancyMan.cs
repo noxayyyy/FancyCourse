@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FancyMan : MonoBehaviour
@@ -31,9 +29,16 @@ public class FancyMan : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		PlayerMoveKeyboard();
-		AnimatePlayer();
-		PlayerJump();
+		if (!PauseMenu.paused)
+		{
+			PlayerMoveKeyboard();
+			AnimatePlayer();
+			PlayerJump();
+		}
+		if (PauseMenu.paused)
+		{
+			Anim.SetBool(RUN_ANIM, true);
+		}
 	}
 
 	void PlayerMoveKeyboard()

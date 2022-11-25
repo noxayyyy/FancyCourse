@@ -2,9 +2,9 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.EventSystems;
 
-public class LevelNavigator : MonoBehaviour
+public class ScoreNav : MonoBehaviour
 {
-	string levelName, temp;
+	string boardName, temp;
 	int i;
 	bool nameEnd;
 
@@ -14,27 +14,26 @@ public class LevelNavigator : MonoBehaviour
 		
 	}
 	
-	public void GoToLevel()
+	public void GoToLB()
 	{
 		TextMeshProUGUI levelID = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TextMeshProUGUI>();
 		i = 0;
 		nameEnd = false;
-		levelName = "";
+		boardName = "";
 		temp = levelID.text;
 		while (!nameEnd)
 		{
-			levelName = levelName + temp.Substring(i, 1);
+			boardName = boardName + temp.Substring(i, 1);
 			i++;
 			if (temp.Substring(i, 1) == ".")
 			{
 				nameEnd = true;
 			}
 		}
-		Debug.Log(levelName);
-		LevelDesigner.levelName = levelName;
-		DataPersistenceManager.fileName = levelName;
+		Debug.Log(boardName);
+		DataPersistenceManager.fileName = boardName;
 		DataPersistenceManager.instance.LoadGame();
-		SceneNavigator.PlayGame();
+		SceneNavigator.Leaderboard();
 	}
 
 	// Update is called once per frame

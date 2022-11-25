@@ -1,9 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using Unity.VisualScripting;
-using UnityEditor;
-using UnityEditor.U2D.Animation;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -16,7 +11,6 @@ public class SceneNavigator : MonoBehaviour
 		string sceneName = SceneManager.GetActiveScene().name;
 		if (sceneName == "Gameplay")
 		{
-			Destroyer.deaths = 0;
 			TimerScript.timerBegin();
 		}
 		SceneManager.LoadScene(sceneName);
@@ -49,6 +43,11 @@ public class SceneNavigator : MonoBehaviour
 		SceneManager.LoadScene("MainMenu");
 	}
 
+	public static void ScoreSelect()
+	{
+		SceneManager.LoadScene("ScoreSelect");
+	}
+
 	static public void Leaderboard()
 	{
 		SceneManager.LoadScene("Leaderboard");
@@ -68,5 +67,10 @@ public class SceneNavigator : MonoBehaviour
 	public void QuitGame()
 	{
 		Application.Quit();
+	}
+
+	public static IEnumerator WaitRoutine(int seconds)
+	{
+		yield return new WaitForSeconds(seconds);
 	}
 }//class

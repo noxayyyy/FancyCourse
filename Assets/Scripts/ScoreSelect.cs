@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.IO;
 
-public class LevelSelect : MonoBehaviour
+public class ScoreSelect : MonoBehaviour
 {
 	public LevelButtons levelButton;
 	string levelDir, levelName;
@@ -9,7 +9,7 @@ public class LevelSelect : MonoBehaviour
 	{
 		levelDir = Directory.GetCurrentDirectory()+ "/Assets/Resources/Levels/";
 		Directory.CreateDirectory(levelDir);
-		LevelCounter counter = gameObject.AddComponent<LevelCounter>();
+		ScoreCounter counter = gameObject.AddComponent<ScoreCounter>();
 		var levelList = Directory.GetFiles(levelDir, "*.png", SearchOption.TopDirectoryOnly);
 		foreach (string level in levelList)
 		{
@@ -18,7 +18,7 @@ public class LevelSelect : MonoBehaviour
 		}
 	}
 	
-	void GenerateLevelButton(LevelCounter counter)
+	void GenerateLevelButton(ScoreCounter counter)
 	{
 		Vector2 position = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y);
 		Instantiate(levelButton.prefab, position, Quaternion.identity, gameObject.transform);

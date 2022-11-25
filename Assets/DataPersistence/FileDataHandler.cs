@@ -1,12 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Networking;
 using System;
 using System.IO;
-using TMPro;
 using Newtonsoft.Json;
-using Unity.VisualScripting;
 
 public class FileDataHandler
 {
@@ -29,21 +24,16 @@ public class FileDataHandler
 			try
 			{
 				// load the serialized data from the file
-				string dataToLoad;
-				using(FileStream stream = new FileStream(fullPath, FileMode.Open))
-				{
-					using(StreamReader reader = new StreamReader(stream))
-					{
-						dataToLoad = reader.ReadToEnd();
-					}
-				}
+				string dataToLoad = File.ReadAllText(fullPath);
+
+				Debug.Log(dataToLoad);
 
 				// deserialize from JSON back into C# object
 				loadedData = JsonConvert.DeserializeObject<GameData>(dataToLoad);
 			}
 			catch(Exception o)
 			{
-				Debug.LogError("Error occured when trying to save data to file: " + fullPath + "\n" + o);
+				Debug.LogError("Error occured when trying to load data from file: " + fullPath + "\n" + o);
 			}
 		}
 		return loadedData;
@@ -51,8 +41,11 @@ public class FileDataHandler
 
 	public void Save(GameData data)
 	{
+		data = new GameData() { leaderBoard = TimerScript.scores };
+		
 		// use Path.Combine bcz different OS's have different path seperators
 		string fullPath = Path.Combine(dataDirPath, dataFileName);
+		Debug.Log(fullPath);
 		try
 		{
 			// create directory path if it doesn't exist
@@ -61,14 +54,10 @@ public class FileDataHandler
 			// serialize game data object into JSON
 			string dataToSave = JsonConvert.SerializeObject(data);
 
+			Debug.Log(dataToSave);
+
 			// write the serialized data to the file
-			using(FileStream stream = new FileStream(fullPath, FileMode.Create))
-			{
-				using (StreamWriter writer = new StreamWriter(stream))
-				{
-					writer.Write(dataToSave);
-				}
-			}
+			File.WriteAllText(fullPath, dataToSave);
 		}
 		catch (Exception o)
 		{

@@ -1,11 +1,8 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TimerScript : MonoBehaviour, IDataPersistence
+public class TimerScript : MonoBehaviour
 {
 	static float currentTime;
 	static public float[] scores = new float[6];
@@ -18,7 +15,7 @@ public class TimerScript : MonoBehaviour, IDataPersistence
 	// Start is called before the first frame update
 	void Start()
 	{
-		currentTimeText.text = currentTime.ToString();
+		
 	}
 	
 	// Update is called once per frame
@@ -82,21 +79,5 @@ public class TimerScript : MonoBehaviour, IDataPersistence
 				}
 			}
 		}while(!noSwap);
-	}
-
-	public void LoadData(GameData data)
-	{
-		for (i = 0; i < 5; i++)
-		{
-			scores[i] = data.leaderBoard[i];
-		}
-	}
-
-	public void SaveData(GameData data)
-	{
-		for (i = 0; i < 5; i++)
-		{
-			data.leaderBoard[i] = scores[i];
-		}
 	}
 }
