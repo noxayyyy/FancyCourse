@@ -9,6 +9,7 @@ public class FinishLine : MonoBehaviour
 	{
 		if (collision.CompareTag("Player"))
 		{
+			Destroy(collision.gameObject);
 			TimerScript.timerEnd();
 			StartCoroutine(UponCollision());
 		}

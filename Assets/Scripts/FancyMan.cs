@@ -37,7 +37,7 @@ public class FancyMan : MonoBehaviour
 		}
 		if (PauseMenu.paused)
 		{
-			Anim.SetBool(RUN_ANIM, true);
+			Anim.SetBool(RUN_ANIM, false);
 		}
 	}
 

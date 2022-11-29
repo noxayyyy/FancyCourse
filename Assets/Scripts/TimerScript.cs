@@ -6,11 +6,10 @@ public class TimerScript : MonoBehaviour
 {
 	static float currentTime;
 	static public float[] scores = new float[6];
-	static public int attempts = 0;
+	static public int attempts;
 	static public bool timerStart = false;
 	static bool timerStop = false;
 	public Text currentTimeText;
-	int i;
 
 	// Start is called before the first frame update
 	void Start()
@@ -27,7 +26,7 @@ public class TimerScript : MonoBehaviour
 			TimeSpan time = TimeSpan.FromSeconds(currentTime);
 			currentTimeText.text = time.ToString(@"mm\:ss\:fff");
 		}
-		if (timerStop) 
+		if (timerStop)
 		{
 			scores[5] = currentTime;
 			if (attempts == 1)

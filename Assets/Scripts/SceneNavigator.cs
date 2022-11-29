@@ -28,6 +28,11 @@ public class SceneNavigator : MonoBehaviour
 		DataPersistenceManager.instance.NewGame();
 	}
 
+	public void ResetLB()
+	{
+		DataPersistenceManager.instance.ResetScores();
+	}
+
 	public void LoadGame()
 	{
 		DataPersistenceManager.instance.LoadGame();

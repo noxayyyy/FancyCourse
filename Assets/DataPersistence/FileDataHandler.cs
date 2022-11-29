@@ -41,7 +41,7 @@ public class FileDataHandler
 
 	public void Save(GameData data)
 	{
-		data = new GameData() { leaderBoard = TimerScript.scores };
+		data = new GameData() { leaderBoard = TimerScript.scores, attempts = TimerScript.attempts };
 		
 		// use Path.Combine bcz different OS's have different path seperators
 		string fullPath = Path.Combine(dataDirPath, dataFileName);

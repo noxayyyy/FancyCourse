@@ -1,4 +1,7 @@
+using System.Collections;
+using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DataPersistenceManager : MonoBehaviour
 {
@@ -30,6 +33,20 @@ public class DataPersistenceManager : MonoBehaviour
 		gameData = new GameData();
 	}
 
+	public void ResetScores()
+	{
+		StartCoroutine(DeleteSave());
+	}
+
+	IEnumerator DeleteSave()
+	{
+		string fullPath = Path.Combine(Application.persistentDataPath, fileName);
+		File.Delete(fullPath);
+		LoadGame();
+		yield return new WaitForSeconds(2);
+		SceneNavigator.ReloadScene();
+	}
+
 	public void SaveGame()
 	{
 		dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
@@ -55,6 +72,7 @@ public class DataPersistenceManager : MonoBehaviour
 		}
 
 		TimerScript.scores = gameData.leaderBoard;
+		TimerScript.attempts = gameData.attempts;
 		Debug.Log("Loaded!");
 	}
 
