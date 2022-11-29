@@ -1,7 +1,6 @@
 # FancyCourse
 
 neat.
-First finished build soon after the Save/Load System (currently in development) is ready and working and 3 default levels have been made.
 Level Editor is complete and functional.
 
 Level Editor Functionality:
