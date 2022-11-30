@@ -357,7 +357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9610ebc73360af943871bf31ad608df5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Difference: 0
+  Xdifference: 0
+  Ydifference: 0
   MinX: -90
   MaxX: 90
 --- !u!1 &556798388
@@ -390,6 +391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTimeText: {fileID: 1813725235}
+  temp: 0
 --- !u!4 &556798390
 Transform:
   m_ObjectHideFlags: 0
@@ -569,7 +571,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1240501442}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -707,8 +709,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1813725234}
-  - {fileID: 271044608}
   - {fileID: 1089621488}
+  - {fileID: 271044608}
   - {fileID: 1031778532}
   - {fileID: 1844923774}
   - {fileID: 1951824159}
@@ -746,7 +748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330068255}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -96.01, y: 2.9899995, z: 0}
+  m_LocalPosition: {x: -97, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -817,7 +819,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9610ebc73360af943871bf31ad608df5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Difference: 7
+  Xdifference: 7
+  Ydifference: 3
   MinX: -97
   MaxX: 83
 --- !u!1 &1452057242
@@ -1421,7 +1424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4001556576341300457, guid: b87cc160b7f113544ba416248a8b722c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4001556576341300457, guid: b87cc160b7f113544ba416248a8b722c, type: 3}
       propertyPath: m_AnchorMax.x

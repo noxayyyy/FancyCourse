@@ -5,11 +5,6 @@ public class PauseMenu : MonoBehaviour
 	[SerializeField]
 	GameObject pauseMenu, continueButton, retryButton, exitButton;
 	public static bool paused;
-	// Start is called before the first frame update
-	void Start()
-	{
-		
-	}
 
 	// Update is called once per frame
 	void Update()
@@ -45,6 +40,7 @@ public class PauseMenu : MonoBehaviour
 	public void retryGame()
 	{
 		SceneNavigator.ReloadScene();
+		paused = false;
 		Destroyer.deaths = 0;
 		Time.timeScale = 1f;
 	}
@@ -54,5 +50,6 @@ public class PauseMenu : MonoBehaviour
 		TimerScript.timerStart = false;
 		Time.timeScale = 1f;
 		SceneNavigator.MainMenu();
+		paused = false;
 	}
 }

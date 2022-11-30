@@ -7,12 +7,6 @@ public class LevelNavigator : MonoBehaviour
 	string levelName, temp;
 	int i;
 	bool nameEnd;
-
-	// Start is called before the first frame update
-	void Start()
-	{
-		
-	}
 	
 	public void GoToLevel()
 	{
@@ -35,12 +29,6 @@ public class LevelNavigator : MonoBehaviour
 		DataPersistenceManager.fileName = levelName;
 		DataPersistenceManager.instance.LoadGame();
 		SceneNavigator.PlayGame();
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-		
 	}
 }
 

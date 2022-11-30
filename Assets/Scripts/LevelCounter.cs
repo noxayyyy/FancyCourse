@@ -3,7 +3,6 @@ using TMPro;
 
 public class LevelCounter : MonoBehaviour
 {
-	// Start is called before the first frame update
 	public void GenerateButtonText(string levelName)
 	{
 		GameObject buttonText = GameObject.Find("LevelButton(Clone)");

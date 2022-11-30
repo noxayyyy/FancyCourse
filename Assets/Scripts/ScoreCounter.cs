@@ -3,7 +3,6 @@ using TMPro;
 
 public class ScoreCounter : MonoBehaviour
 {
-	// Start is called before the first frame update
 	public void GenerateButtonText(string levelName)
 	{
 		GameObject buttonText = GameObject.Find("ScoreButton(Clone)");

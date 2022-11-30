@@ -7,23 +7,12 @@ public class LevelDesigner : MonoBehaviour
 	public Colour2Prefab[] colourMappings;
 	Texture2D map;
 
-	private void Awake()
-	{
-
-	}
-
 	// Start is called before the first frame update
 	void Start()
 	{
 		Texture2D copy = (Texture2D)Resources.Load("Levels/" + levelName); 
 		map = duplicateTexture(copy);
 		GenerateLevel();
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-		
 	}
 
 	Texture2D duplicateTexture(Texture2D source)

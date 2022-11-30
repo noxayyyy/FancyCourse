@@ -4,7 +4,7 @@ public class CameraFollow : MonoBehaviour
 {
 	Transform Player;
 	[SerializeField]
-	int Difference;
+	int Xdifference, Ydifference;
 	Vector3 TempPos;
 	[SerializeField]
 	float MinX, MaxX;
@@ -15,12 +15,11 @@ public class CameraFollow : MonoBehaviour
 		Player = GameObject.FindWithTag("Player").transform;
 	}
 
-	// Update is called once per frame
 	void LateUpdate()
 	{
 		TempPos = transform.position;
-		TempPos.x = Player.position.x - Difference;
-		TempPos.y = Player.position.y;
+		TempPos.x = Player.position.x - Xdifference;
+		TempPos.y = Player.position.y + Ydifference;
 		if(TempPos.x > MaxX)
 		{
 			TempPos.x = MaxX;

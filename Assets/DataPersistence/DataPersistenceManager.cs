@@ -1,7 +1,6 @@
 using System.Collections;
 using System.IO;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class DataPersistenceManager : MonoBehaviour
 {
@@ -23,11 +22,6 @@ public class DataPersistenceManager : MonoBehaviour
 		dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
 	}
 
-	private void Start()
-	{
-		
-	}
-
 	public void NewGame()
 	{
 		gameData = new GameData();
@@ -43,7 +37,7 @@ public class DataPersistenceManager : MonoBehaviour
 		string fullPath = Path.Combine(Application.persistentDataPath, fileName);
 		File.Delete(fullPath);
 		LoadGame();
-		yield return new WaitForSeconds(2);
+		yield return new WaitForSeconds(1);
 		SceneNavigator.ReloadScene();
 	}
 

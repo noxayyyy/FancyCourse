@@ -1,6 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class FinishLine : MonoBehaviour
@@ -15,22 +13,10 @@ public class FinishLine : MonoBehaviour
 		}
 	}
 
-	// Start is called before the first frame update
-	void Start()
-	{
-		
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-		
-	}
-
 	IEnumerator UponCollision()
 	{
 		PauseMenu.paused = true;
-		yield return new WaitForSeconds(5);
+		yield return new WaitForSeconds(1);
 		DataPersistenceManager.instance.SaveGame();
 		PauseMenu.paused = false;
 		SceneNavigator.AfterRunBoard();

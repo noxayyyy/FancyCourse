@@ -10,12 +10,7 @@ public class TimerScript : MonoBehaviour
 	static public bool timerStart = false;
 	static bool timerStop = false;
 	public Text currentTimeText;
-
-	// Start is called before the first frame update
-	void Start()
-	{
-		
-	}
+	public float temp;
 	
 	// Update is called once per frame
 	void Update()
@@ -42,6 +37,7 @@ public class TimerScript : MonoBehaviour
 			{
 				Sort(5);
 			}
+			timerStop = false;
 		}
 	}
 	 
@@ -61,13 +57,12 @@ public class TimerScript : MonoBehaviour
 
 	public static void Sort(int n)
 	{
-		int i;
-		float temp;
 		bool noSwap;
+		float temp;
 		do
 		{
 			noSwap = true;
-			for(i = 0; i < n; i++)
+			for(int i = 0; i < n; i++)
 			{
 				if (scores[i] > scores[i + 1])
 				{

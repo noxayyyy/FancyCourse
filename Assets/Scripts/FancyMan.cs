@@ -20,12 +20,6 @@ public class FancyMan : MonoBehaviour
 		Render = GetComponent<SpriteRenderer>();
 	}
 
-	// Start is called before the first frame update
-	void Start()
-	{
-		
-	}
-
 	// Update is called once per frame
 	void Update()
 	{
@@ -45,7 +39,6 @@ public class FancyMan : MonoBehaviour
 	{
 		MoveX = Input.GetAxis("Horizontal");
 		transform.position += new Vector3(MoveX, 0f, 0f) * Time.deltaTime * MoveF;
-
 	}
 
 	void AnimatePlayer()

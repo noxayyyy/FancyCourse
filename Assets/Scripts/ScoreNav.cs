@@ -7,12 +7,6 @@ public class ScoreNav : MonoBehaviour
 	string boardName, temp;
 	int i;
 	bool nameEnd;
-
-	// Start is called before the first frame update
-	void Start()
-	{
-		
-	}
 	
 	public void GoToLB()
 	{
@@ -34,12 +28,6 @@ public class ScoreNav : MonoBehaviour
 		DataPersistenceManager.fileName = boardName;
 		DataPersistenceManager.instance.LoadGame();
 		SceneNavigator.Leaderboard();
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-		
 	}
 }
 
