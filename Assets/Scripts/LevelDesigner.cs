@@ -86,15 +86,20 @@ public class LevelDesigner : MonoBehaviour
 		{
 			if (colourMapping.colour.Equals(pixelColour))
 			{
-				if (colourMapping.prefab.name == "FinishLine")
+				if(colourMapping.prefab.name == "Ground")
 				{
 					Vector2 colourPosition1 = new Vector2(x,y);
-					Instantiate(colourMapping.prefab, colourPosition1, Quaternion.identity, GameObject.Find("FinishLine").transform);
+					Instantiate(colourMapping.prefab, colourPosition1, Quaternion.identity, gameObject.transform.GetChild(0).transform);
+				}
+				else if (colourMapping.prefab.name == "FinishLine")
+				{
+					Vector2 colourPosition2 = new Vector2(x,y);
+					Instantiate(colourMapping.prefab, colourPosition2, Quaternion.identity, GameObject.Find("FinishLine").transform);
 				}
 				else
 				{
 					Vector2 colourPosition = new Vector2(x,y);
-					Instantiate(colourMapping.prefab, colourPosition, Quaternion.identity, GameObject.Find("LevelGenerator").transform);
+					Instantiate(colourMapping.prefab, colourPosition, Quaternion.identity, gameObject.transform.GetChild(1).transform);
 				}
 			}
 		}

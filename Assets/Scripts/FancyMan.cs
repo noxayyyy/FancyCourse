@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FancyMan : MonoBehaviour
@@ -6,6 +7,7 @@ public class FancyMan : MonoBehaviour
 	float MoveF = 10f, JumpF = 11f;
 	string RUN_ANIM = "Run", JUMP_ANIM = "Jump", GROUND_TAG = "Ground";
 	float MoveX;
+	float VelY;
 	bool isGrounded;
 
 	SpriteRenderer Render;
@@ -21,15 +23,27 @@ public class FancyMan : MonoBehaviour
 	}
 
 	// Update is called once per frame
-	void Update()
+
+	private void Update()
 	{
 		if (!PauseMenu.paused)
 		{
+			VelY = Body.velocity.y;
+			Debug.Log(VelY);
+		}
+	}
+
+	void LateUpdate()
+	{
+		if (!PauseMenu.paused)
+		{
+			if (VelY != 0)
+				isGrounded = false;
 			PlayerMoveKeyboard();
 			AnimatePlayer();
 			PlayerJump();
 		}
-		if (PauseMenu.paused)
+		else if (PauseMenu.paused)
 		{
 			Anim.SetBool(RUN_ANIM, false);
 		}
@@ -54,9 +68,11 @@ public class FancyMan : MonoBehaviour
 			Render.flipX = true;
 		}
 		else
-		{
 			Anim.SetBool(RUN_ANIM, false);
-		}
+		if(VelY != 0)
+			Anim.SetBool(JUMP_ANIM, true);
+		else
+			Anim.SetBool(JUMP_ANIM, false);
 	}
 
 	void PlayerJump()
@@ -68,13 +84,28 @@ public class FancyMan : MonoBehaviour
 			Anim.SetBool(JUMP_ANIM, true);
 		}	
 	}
+	
+	Vector3 validUp = Vector3.up;
+	[SerializeField]
+	float contactThreshold; // Acceptable slant
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
 		if(collision.gameObject.CompareTag(GROUND_TAG))
 		{
-			isGrounded = true;
-			Anim.SetBool(JUMP_ANIM, false);
+			for (int i = 0; i < collision.contacts.Length; i++)
+			{
+				if (Vector3.Angle(collision.contacts[i].normal, validUp) <= contactThreshold)
+				{
+					isGrounded = true;
+					break;
+				}
+			}
 		}
+	}
+
+	private void OnCollisionExit2D(Collision2D collision)
+	{
+		isGrounded = false;
 	}
 }//class
