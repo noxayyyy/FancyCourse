@@ -724,6 +724,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &1241683413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.12680681
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27216473
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 54.25457
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000024155714
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728295122675341384, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.156
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876350568609616412, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
+      propertyPath: m_Name
+      value: FancyMan
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 016dbf80c33241b4c85146a526eeb270, type: 3}
 --- !u!1 &1330068255
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,7 +1095,7 @@ GameObject:
   - component: {fileID: 1843010356}
   - component: {fileID: 1843010358}
   - component: {fileID: 1843010357}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundCollider
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1069,7 +1126,7 @@ CompositeCollider2D:
   m_GameObject: {fileID: 1843010355}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a9545efa7852a744b96edf0d17c54cd, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

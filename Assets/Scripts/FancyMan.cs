@@ -1,111 +1,147 @@
+using System;
+using System.Linq.Expressions;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class FancyMan : MonoBehaviour
 {
-	[SerializeField]
-	float MoveF = 10f, JumpF = 11f;
+	float MoveF = 10f, JumpF = 20f, WallF = 100f;
 	string RUN_ANIM = "Run", JUMP_ANIM = "Jump", GROUND_TAG = "Ground";
 	float MoveX;
-	float VelY;
-	bool isGrounded;
+	float maxVel = 15f;
 
-	SpriteRenderer Render;
-	[SerializeField]
-	Rigidbody2D Body;
-	Animator Anim;
+	SpriteRenderer render;
+	[SerializeField] Rigidbody2D body;
+	[SerializeField] LayerMask groundLayer;
+	Animator anim;
+	[SerializeField] GameObject groundCheck;
+	[SerializeField] GameObject wallCheck;
 
 	private void Awake()
 	{
-		Body = GetComponent<Rigidbody2D>();
-		Anim = GetComponent<Animator>();
-		Render = GetComponent<SpriteRenderer>();
+		body = GetComponent<Rigidbody2D>();
+		anim = GetComponent<Animator>();
+		render = GetComponent<SpriteRenderer>();
+		
+		body.gravityScale = 5f;
 	}
 
 	// Update is called once per frame
 
 	private void Update()
 	{
-		if (!PauseMenu.paused)
-		{
-			VelY = Body.velocity.y;
-			Debug.Log(VelY);
-		}
+
 	}
 
 	void LateUpdate()
 	{
 		if (!PauseMenu.paused)
 		{
-			if (VelY != 0)
-				isGrounded = false;
 			PlayerMoveKeyboard();
 			AnimatePlayer();
-			PlayerJump();
+			if (Input.GetButtonDown("Jump"))
+			{
+				PlayerJump();
+				WallJump();
+			}
 		}
-		else if (PauseMenu.paused)
-		{
-			Anim.SetBool(RUN_ANIM, false);
-		}
+		else
+			anim.SetBool(RUN_ANIM, false);
 	}
 
 	void PlayerMoveKeyboard()
 	{
 		MoveX = Input.GetAxis("Horizontal");
-		transform.position += new Vector3(MoveX, 0f, 0f) * Time.deltaTime * MoveF;
+		if (MoveX != 0 && isGrounded())
+			body.velocity = new Vector2(MoveX * MoveF, body.velocity.y);
+		else
+		{
+			var airF = MoveX * MoveF / 10;
+			body.velocity = new Vector2(Mathf.Clamp(body.velocity.x + airF, -maxVel, maxVel), body.velocity.y);
+		}
 	}
 
 	void AnimatePlayer()
 	{
 		if(MoveX > 0) // move right
 		{
-			Anim.SetBool(RUN_ANIM, true);
-			Render.flipX = false;
+			anim.SetBool(RUN_ANIM, true);
+			render.flipX = false;
+			wallCheck.transform.position = new Vector3(gameObject.transform.position.x + 0.14f, 
+										   wallCheck.transform.position.y, wallCheck.transform.position.z);
 		}
 		else if(MoveX < 0) // move left
 		{
-			Anim.SetBool(RUN_ANIM, true);
-			Render.flipX = true;
+			anim.SetBool(RUN_ANIM, true);
+			render.flipX = true;
+			wallCheck.transform.position = new Vector3(gameObject.transform.position.x - 0.14f, 
+										   wallCheck.transform.position.y, wallCheck.transform.position.z);	
 		}
 		else
-			Anim.SetBool(RUN_ANIM, false);
-		if(VelY != 0)
-			Anim.SetBool(JUMP_ANIM, true);
+			anim.SetBool(RUN_ANIM, false);
+		if(!isGrounded())
+			anim.SetBool(JUMP_ANIM, true);
 		else
-			Anim.SetBool(JUMP_ANIM, false);
+			anim.SetBool(JUMP_ANIM, false);
+	}
+
+	bool isGrounded()
+	{
+		return Physics2D.OverlapCircle(groundCheck.transform.position, 0.1f, groundLayer);
+	}
+
+	bool isWalled()
+	{
+		return Physics2D.OverlapCircle(wallCheck.transform.position, 0.2f, groundLayer);
 	}
 
 	void PlayerJump()
 	{
-		if(Input.GetButtonDown("Jump") && isGrounded)
-		{
-			isGrounded = false;
-			Body.AddForce(new Vector2(0f, JumpF), ForceMode2D.Impulse);
-			Anim.SetBool(JUMP_ANIM, true);
-		}	
+		if(!isGrounded())
+			return;
+		body.velocity = new Vector2(body.velocity.x, JumpF);
+	}
+
+	void WallJump()
+	{
+		if (isGrounded() || !isWalled())
+			return;
+		if (render.flipX)
+			body.velocity += new Vector2(WallF, WallF/2);
+		else
+			body.velocity += new Vector2(-WallF, WallF/2);
+		
 	}
 	
 	Vector3 validUp = Vector3.up;
-	[SerializeField]
-	float contactThreshold; // Acceptable slant
+	float contactThreshold = 10; // Acceptable slant
 
-	private void OnCollisionEnter2D(Collision2D collision)
-	{
-		if(collision.gameObject.CompareTag(GROUND_TAG))
-		{
-			for (int i = 0; i < collision.contacts.Length; i++)
-			{
-				if (Vector3.Angle(collision.contacts[i].normal, validUp) <= contactThreshold)
-				{
-					isGrounded = true;
-					break;
-				}
-			}
-		}
-	}
+	//private void OnCollisionStay2D(Collision2D collision)
+	//{
+	//	if (!collision.gameObject.CompareTag(GROUND_TAG))
+	//		return;
+	//	float contactAngle;
+	//	for (int i = 0; i < collision.contacts.Length; i++)
+	//	{
+	//		contactAngle = Vector3.Angle(collision.contacts[i].normal, validUp);
+	//		if (contactAngle == 90 && !isGrounded)
+	//		{
+	//			wallJump = true;
+	//			continue;
+	//		}
+	//		else if (contactAngle > contactThreshold)
+	//			continue;
+	//		isGrounded = true;
+	//		anim.SetBool(JUMP_ANIM, false);
+	//		break;
+	//	}
+	//}
 
-	private void OnCollisionExit2D(Collision2D collision)
-	{
-		isGrounded = false;
-	}
+	//private void OnCollisionExit2D(Collision2D collision)
+	//{
+	//	if (!collision.gameObject.CompareTag(GROUND_TAG))
+	//		return;
+	//	wallJump = false;
+	//	isGrounded = false;
+	//}
 }//class

@@ -37,9 +37,9 @@ public class LevelDesigner : MonoBehaviour
 	
 	void GenerateLevel()
 	{
-		for(int i = -5; i <= map.width + 5; i++)
+		for(int i = -30; i <= map.width + 30; i++)
 		{
-			for(int j = -5; j <= map.height + 5; j++)
+			for(int j = -30; j <= map.height + 30; j++)
 			{
 				Vector2 prefabPosition = new Vector2(i,j);
 				Instantiate(bgPrefab, prefabPosition, Quaternion.identity, GameObject.Find("Game BG").transform.GetChild(1).transform);
@@ -62,16 +62,16 @@ public class LevelDesigner : MonoBehaviour
 		PhysicsMaterial2D mat = new PhysicsMaterial2D(borderCollider.name + "Material");
 		mat.friction = 0;
 		borderCollider.sharedMaterial = mat;
-		borderBody.constraints = RigidbodyConstraints2D.FreezeAll;
+		borderBody.bodyType = RigidbodyType2D.Static;
 
-		borderCollider.size = new Vector2(1, map.height);
-		levelBorder.transform.position = new Vector2(0,map.height/2);
-		Vector2 position = new Vector2(map.width,map.height/2);
+		borderCollider.size = new Vector2(1, map.height + 10);
+		levelBorder.transform.position = new Vector2(-5,map.height/2);
+		Vector2 position = new Vector2(map.width + 5,map.height/2);
 		Instantiate(levelBorder, position, Quaternion.identity, transform);
 
 		BoxCollider2D destroyerCollider = destroyer.GetComponent<BoxCollider2D>();
-		destroyerCollider.size = new Vector2(map.width, 1);
-		Vector2 destroyPos = new Vector2(map.width/2, 0);
+		destroyerCollider.size = new Vector2(map.width + 10, 1);
+		Vector2 destroyPos = new Vector2(map.width/2, -5);
 		Instantiate(destroyer, destroyPos, Quaternion.identity, transform);
 	}
 
@@ -88,13 +88,19 @@ public class LevelDesigner : MonoBehaviour
 			{
 				if(colourMapping.prefab.name == "Ground")
 				{
-					Vector2 colourPosition1 = new Vector2(x,y);
-					Instantiate(colourMapping.prefab, colourPosition1, Quaternion.identity, gameObject.transform.GetChild(0).transform);
+					Vector2 colourPosition = new Vector2(x,y);
+					Instantiate(colourMapping.prefab, colourPosition, Quaternion.identity, gameObject.transform.GetChild(0).transform);
 				}
 				else if (colourMapping.prefab.name == "FinishLine")
 				{
-					Vector2 colourPosition2 = new Vector2(x,y);
-					Instantiate(colourMapping.prefab, colourPosition2, Quaternion.identity, GameObject.Find("FinishLine").transform);
+					Vector2 colourPosition = new Vector2(x,y);
+					Instantiate(colourMapping.prefab, colourPosition, Quaternion.identity, GameObject.Find("FinishLine").transform);
+				}
+				else if (colourMapping.prefab.name == "FancyMan")
+				{
+					Vector2 colourPosition = new Vector2(x,y);
+					var fancyMan = GameObject.Find("FancyMan");
+					fancyMan.transform.position = colourPosition;
 				}
 				else
 				{

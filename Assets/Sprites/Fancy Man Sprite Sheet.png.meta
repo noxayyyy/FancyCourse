@@ -113,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3165,8 +3177,8 @@ TextureImporter:
       Fancy Man Sprite Sheet_47: -2074165775
       Fancy Man Sprite Sheet_59: 869363989
       FancyManRunning_8: 150159270
-      Fancy Man Sprite Sheet_179: 1580942900
       FancyManJumping_10: -2073403795
+      Fancy Man Sprite Sheet_179: 1580942900
       Fancy Man Sprite Sheet_169: -744958088
       Fancy Man Sprite Sheet_37: 2146985893
       Fancy Man Sprite Sheet_104: -336463324
